@@ -1,0 +1,13 @@
+Var N: inteiro
+Q: inteiro
+
+Início
+	
+	Escrever ("Informe um numero")
+	Leia (N)
+
+		Q=N*N
+
+	Escrever ("O quadrado de seu número é:", Q)
+
+Fim 

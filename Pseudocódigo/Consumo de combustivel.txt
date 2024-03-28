@@ -1,0 +1,21 @@
+ 
+ Var KM: Real
+     L: Real
+
+Início
+	Escreva ("Informe KM:")
+	Leia (KM)
+
+	Escreva ("Informe combustivel:")
+	Leia (L)
+
+	Consumo= KM/L
+
+	Escreva ("O consumo do seu carro em km/l é:", Consumo)
+
+	Se (consumo <= 8) então 
+	  escreva ("Está consumindo muito")
+	Senão
+	  escreva ("Está bom")
+	fim se  
+Fim
